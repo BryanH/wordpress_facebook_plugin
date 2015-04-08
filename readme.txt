@@ -5,7 +5,7 @@ Requires at least: 3.3
 Tested up to: 3.9
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Stable tag: 1.5.5
+Stable tag: 1.5.6
 
 Add Facebook social plugins and the ability to publish new posts to a Facebook Timeline or Facebook Page. Official Facebook plugin.
 
@@ -143,6 +143,11 @@ It's possible another plugin (or your theme) including an English version of the
 
 
 == Upgrade Notice ==
+= 1.5.6 =
+Merged original pull requests
+* #519: Fix pagination not working when the front page is set to a specific page
+* #537: Strip HTML tags from the title; and
+* #538: update javascript sdk to 2.x call
 
 = 1.5.5 =
 Unescaped widget titles. Deprecated function update. Latest Facebook SDK for PHP.
